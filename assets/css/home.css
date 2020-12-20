@@ -1,0 +1,178 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+body, h1, h2, h3, h4, h5, h6, p, a, span, i { font-family: 'Open Sans', sans-serif; }
+html { scroll-behavior: smooth; }
+
+/*  main banner*/
+
+.bg-light {
+    background-color: inherit !important;
+}
+.bg-light > a {
+    color: #383737;
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+.bg-light .navbar-toggler {
+    margin-left: auto;
+}
+.bg-light .fa-bars {
+    color: #fff !important;
+}
+.bg-light .navbar-nav {
+    padding: 1.2vw 0vw;
+}
+.bg-light .navbar-nav .nav-link {
+    color: #383737;
+    font-weight: 600;
+    padding: 0vw 1vw;
+    text-transform: uppercase;
+}
+.bg-light .navbar-nav .nav-link:hover {
+    color: #383737;
+}
+.bg-light .navbar-nav .dropdown-menu {
+    margin-top: 1.4vw;
+    padding: 0;
+    border: none;
+}
+.bg-light .navbar-nav .dropdown-item {
+    color: rgb(78, 78, 78);
+    padding: 0.6vw 1vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9vw;
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
+.bg-light .navbar-nav .dropdown-item:hover {
+    background-color: #e2e0e0;
+}
+
+@media (max-width: 480px) {
+    .navbar-light .fa-bars {
+        color: #1b1b1b !important;
+    }
+    .bg-light > a {
+        font-size: 6vw;
+    }
+    .bg-light .navbar-nav {
+        padding: 2vw 0vw;
+    }
+    .bg-light .navbar-nav .nav-link {
+        line-height: 10vw;
+        font-size: 4.5vw;
+        border-bottom: 1px solid rgb(189, 189, 189);
+        padding: 1.2vw 0vw;
+        padding-left: 5vw;
+    }
+    #navbarNavDropdown {
+        background-color: #ffffff;
+        z-index: 1;
+        position: absolute;
+        top: 16vw;
+        width: 110%;
+        margin-left: -4vw;
+    }
+    .bg-light .navbar-nav .dropdown-menu {
+        margin-top: 10px;
+        margin: 15px;
+    }
+    .bg-light .navbar-nav .dropdown-item {
+        padding: 2vw 2vw;
+        font-size: 4.3vw;
+    }
+    .navbar {
+        padding: 14px 0px;
+    }
+    .navbar-light .navbar-toggler {
+        border: 2px solid #fff;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar-light .fa-bars {
+        color: #1b1b1b !important;
+    }
+    .bg-light > a {
+        font-size: 3.5vw;
+    }
+    .bg-light .navbar-nav {
+        padding: 2vw 0vw;
+    }
+    .bg-light .navbar-nav .nav-link {
+        line-height: 8vw;
+        font-size: 3.2vw;
+        border-bottom: 1px solid rgb(189, 189, 189);
+        padding: 0vw 0vw;
+        padding-left: 5vw;
+    }
+    #navbarNavDropdown {
+        background-color: #ffffff;
+        z-index: 1;
+        position: absolute;
+        top: 8.5vw;
+        width: 113%;
+        margin-left: -6vw;
+    }
+    .bg-light .navbar-nav .dropdown-menu {
+        margin-top: 10px;
+        margin: 15px;
+    }
+    .bg-light .navbar-nav .dropdown-item {
+        padding: 1.8vw 2vw;
+        font-size: 3.2vw;
+        padding-left: 4vw;
+    }
+    .navbar {
+        padding: 14px 0px;
+    }
+    .navbar-light .navbar-toggler {
+        border: 2px solid #fff;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1100px) {
+    .navbar-light .fa-bars {
+        color: #1b1b1b !important;
+    }
+    .bg-light > a {
+        font-size: 3.5vw;
+    }
+    .bg-light .navbar-nav {
+        padding: 2vw 0vw;
+    }
+    .bg-light .navbar-nav .nav-link {
+        line-height: 8vw;
+        font-size: 3.2vw;
+        border-bottom: 1px solid rgb(189, 189, 189);
+        padding: 0vw 0vw;
+        padding-left: 5vw;
+    }
+    #navbarNavDropdown {
+        background-color: #ffffff;
+        z-index: 1;
+        position: absolute;
+        top: 8.5vw;
+        width: 113%;
+        margin-left: -6vw;
+    }
+    .bg-light .navbar-nav .dropdown-menu {
+        margin-top: 10px;
+        margin: 15px;
+    }
+    .bg-light .navbar-nav .dropdown-item {
+        padding: 1.8vw 2vw;
+        font-size: 3.2vw;
+        padding-left: 4vw;
+    }
+    .navbar {
+        padding: 14px 0px;
+    }
+    .navbar-light .navbar-toggler {
+        border: 2px solid #fff;
+    }
+}
+/*  //main banner*/
+
+
+
+
