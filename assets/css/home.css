@@ -171,7 +171,197 @@ html { scroll-behavior: smooth; }
         border: 2px solid #fff;
     }
 }
-/*  //main banner*/
+/*  //navbar*/
+
+/* home banner */
+.home-carousel .carousel-caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 100%);
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 100%);
+}
+.home-carousel .carousel-caption h5 {
+    font-size: 2vw;
+}
+/* //home banner */
+
+
+/* initial text */
+.initial-text {
+    padding: 3vw 0vw 4vw 0vw;
+    position: relative;
+}
+.initial-text h2 {
+    font-size: 2.3vw;
+    font-weight: 700;
+    color: #423f3f;
+    text-transform: capitalize;
+}
+.initial-text h2::after {
+    width: 6vw;
+    background-color: #133852;
+    display: inline-block;
+    height: 0.3vw;
+    content: '';
+    position: absolute;
+    left: 33vw;
+    right: 32vw;
+    top: 3.6vw;
+}
+.initial-text p {
+    font-size: 1.05vw;
+    color: #5e5e5e;
+    margin-top: 2vw;
+}
+/* //initial text */
+
+/* europe tour package */
+.europe-tour {
+    padding: 3vw 0vw 5vw 0vw;
+    background-color: #f1f2f1;
+}
+.europe-tour h2 {
+    font-size: 2.3vw;
+    font-weight: 700;
+    color: #423f3f;
+    text-transform: capitalize;
+    margin-bottom: 3vw;
+}
+.europe-tour p {
+    font-size: 1.05vw;
+    color: #5e5e5e;
+}
+.europe-tour h2::after {
+    width: 12vw;
+    background-color: #133852;
+    display: inline-block;
+    height: 0.3vw;
+    content: '';
+    position: absolute;
+    left: 30vw;
+    right: 32vw;
+    top: 3.6vw;
+}
+.europe-tour .europe-tour-grid {
+    box-shadow:  6px 5px 20px 4px rgba(46,61,73,0.15);
+    border-radius: 6px;
+    margin-top: 2.5vw;
+}
+.europe-tour .europe-tour-grid img {
+    border-radius: 6px;
+}
+.europe-tour .europe-tour-grid-content {
+    padding: 1.5vw 0.8vw 1vw 0.8vw;
+}
+.europe-tour .europe-tour-grid-content h4 {
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: #424242;
+}
+.europe-tour .europe-tour-grid-content h5 {
+    font-size: 0.9vw;
+    color: #5c5c5c;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    padding-bottom: 0.8vw;
+}
+.europe-tour .europe-tour-grid-content p strong {
+    font-weight: 600;
+    font-size: 2vw;
+    display: inline-block;
+    color: #df3c0b;
+}
+.europe-tour span {
+    font-size: 1.3vw;
+    display: inline-block;
+}
+/* //europe tour package */
+
+/* featured destinations */
+.featured-destinations {
+    padding: 3vw 0vw 3vw 0vw;
+    background-color: #fff;
+    position: relative;
+}
+.featured-destinations h2 {
+    font-size: 2.3vw;
+    font-weight: 700;
+    color: #423f3f;
+    text-transform: capitalize;
+    margin-bottom: 3vw;
+}
+.featured-destinations p {
+    font-size: 1.05vw;
+    color: #5e5e5e;
+}
+.featured-destinations h2::after {
+    width: 7vw;
+    background-color: #133852;
+    display: inline-block;
+    height: 0.3vw;
+    content: '';
+    position: absolute;
+    left: 32.5vw;
+    right: 32vw;
+    top: 3.6vw;
+}
+.featured-destinations .featured-destinations-wrapper {
+    position: relative;
+    border-radius: 7px;
+    margin-bottom: 2.1vw;
+}
+.featured-destinations .featured-destinations-wrapper img {
+    border-radius: 7px;
+}
+.featured-destinations .featured-destinations-wrapper h5 {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,1) 100%);
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,1) 100%);
+    position: absolute;
+    top: 11.2vw;
+    left: 0vw;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5vw;
+    text-transform: capitalize;
+    padding: 0.6vw 0vw 1vw 1vw;
+    border-radius: 8px;
+    font-weight: 700;
+}
+/* //featured destinations */
+
+
+.home-cta {
+    background-color: rgb(224, 32, 32);
+    padding: 3vw 0vw 2vw 0vw;
+}
+.home-cta h2 {
+    font-size: 2.3vw;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.home-cta p {
+    color: rgb(238, 238, 238);
+    font-size: 1vw;
+    margin-top: 1vw;
+}
+.home-cta .btn-danger {
+    background-color: #fff;
+    border-color: #fff;
+    padding: 0.9vw 3vw 1vw 3vw;
+    color: rgb(224, 32, 32);
+    margin: 1.3vw 0vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 100px;
+}
+
 
 
 
