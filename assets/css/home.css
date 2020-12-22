@@ -1,367 +1,616 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+i {
+  font-family: "Open Sans", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
-body, h1, h2, h3, h4, h5, h6, p, a, span, i { font-family: 'Open Sans', sans-serif; }
-html { scroll-behavior: smooth; }
-
-/*  main banner*/
+/*  navbar */
 
 .bg-light {
-    background-color: inherit !important;
+  background-color: inherit !important;
 }
 .bg-light > a {
-    color: #383737;
-    font-size: 1.2vw;
-    font-weight: 700;
+  color: #2e4ca1;
+  font-size: 1.2vw;
+  font-weight: 700;
 }
 .bg-light .navbar-toggler {
-    margin-left: auto;
+  margin-left: auto;
 }
 .bg-light .fa-bars {
-    color: #fff !important;
+  color: #fff !important;
 }
 .bg-light .navbar-nav {
-    padding: 1.2vw 0vw;
+  padding: 1.2vw 0vw;
 }
 .bg-light .navbar-nav .nav-link {
-    color: #383737;
-    font-weight: 600;
-    padding: 0vw 1vw;
-    text-transform: uppercase;
+  color: #2e4ca1;
+  font-weight: 700;
+  padding: 0vw 1vw;
+  text-transform: uppercase;
 }
 .bg-light .navbar-nav .nav-link:hover {
-    color: #383737;
+  color: #2e4ca1;
 }
 .bg-light .navbar-nav .dropdown-menu {
-    margin-top: 1.4vw;
-    padding: 0;
-    border: none;
+  margin-top: 1.4vw;
+  padding: 0;
+  border: none;
 }
 .bg-light .navbar-nav .dropdown-item {
-    color: rgb(78, 78, 78);
-    padding: 0.6vw 1vw;
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 0.9vw;
-    border-bottom: 1px solid rgb(189, 189, 189);
+  color: rgb(78, 78, 78);
+  padding: 0.6vw 1vw;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9vw;
+  border-bottom: 1px solid rgb(189, 189, 189);
 }
 .bg-light .navbar-nav .dropdown-item:hover {
-    background-color: #e2e0e0;
+  background-color: #e2e0e0;
 }
 
-@media (max-width: 480px) {
-    .navbar-light .fa-bars {
-        color: #1b1b1b !important;
-    }
-    .bg-light > a {
-        font-size: 6vw;
-    }
-    .bg-light .navbar-nav {
-        padding: 2vw 0vw;
-    }
-    .bg-light .navbar-nav .nav-link {
-        line-height: 10vw;
-        font-size: 4.5vw;
-        border-bottom: 1px solid rgb(189, 189, 189);
-        padding: 1.2vw 0vw;
-        padding-left: 5vw;
-    }
-    #navbarNavDropdown {
-        background-color: #ffffff;
-        z-index: 1;
-        position: absolute;
-        top: 16vw;
-        width: 110%;
-        margin-left: -4vw;
-    }
-    .bg-light .navbar-nav .dropdown-menu {
-        margin-top: 10px;
-        margin: 15px;
-    }
-    .bg-light .navbar-nav .dropdown-item {
-        padding: 2vw 2vw;
-        font-size: 4.3vw;
-    }
-    .navbar {
-        padding: 14px 0px;
-    }
-    .navbar-light .navbar-toggler {
-        border: 2px solid #fff;
-    }
-}
 
-@media (min-width: 768px) and (max-width: 1024px) {
-    .navbar-light .fa-bars {
-        color: #1b1b1b !important;
-    }
-    .bg-light > a {
-        font-size: 3.5vw;
-    }
-    .bg-light .navbar-nav {
-        padding: 2vw 0vw;
-    }
-    .bg-light .navbar-nav .nav-link {
-        line-height: 8vw;
-        font-size: 3.2vw;
-        border-bottom: 1px solid rgb(189, 189, 189);
-        padding: 0vw 0vw;
-        padding-left: 5vw;
-    }
-    #navbarNavDropdown {
-        background-color: #ffffff;
-        z-index: 1;
-        position: absolute;
-        top: 8.5vw;
-        width: 113%;
-        margin-left: -6vw;
-    }
-    .bg-light .navbar-nav .dropdown-menu {
-        margin-top: 10px;
-        margin: 15px;
-    }
-    .bg-light .navbar-nav .dropdown-item {
-        padding: 1.8vw 2vw;
-        font-size: 3.2vw;
-        padding-left: 4vw;
-    }
-    .navbar {
-        padding: 14px 0px;
-    }
-    .navbar-light .navbar-toggler {
-        border: 2px solid #fff;
-    }
-}
-@media (min-width: 1024px) and (max-width: 1100px) {
-    .navbar-light .fa-bars {
-        color: #1b1b1b !important;
-    }
-    .bg-light > a {
-        font-size: 3.5vw;
-    }
-    .bg-light .navbar-nav {
-        padding: 2vw 0vw;
-    }
-    .bg-light .navbar-nav .nav-link {
-        line-height: 8vw;
-        font-size: 3.2vw;
-        border-bottom: 1px solid rgb(189, 189, 189);
-        padding: 0vw 0vw;
-        padding-left: 5vw;
-    }
-    #navbarNavDropdown {
-        background-color: #ffffff;
-        z-index: 1;
-        position: absolute;
-        top: 8.5vw;
-        width: 113%;
-        margin-left: -6vw;
-    }
-    .bg-light .navbar-nav .dropdown-menu {
-        margin-top: 10px;
-        margin: 15px;
-    }
-    .bg-light .navbar-nav .dropdown-item {
-        padding: 1.8vw 2vw;
-        font-size: 3.2vw;
-        padding-left: 4vw;
-    }
-    .navbar {
-        padding: 14px 0px;
-    }
-    .navbar-light .navbar-toggler {
-        border: 2px solid #fff;
-    }
-}
 /*  //navbar*/
 
 /* home banner */
 .home-carousel .carousel-caption {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    left: 0;
-    right: 0;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 100%);
-    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 100%);
-    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 100%);
-    background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.2) 100%);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  background: -moz-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
 }
 .home-carousel .carousel-caption h5 {
-    font-size: 2vw;
+  font-size: 2vw;
 }
 /* //home banner */
 
-
 /* initial text */
 .initial-text {
-    padding: 3vw 0vw 4vw 0vw;
-    position: relative;
+  padding: 3vw 0vw 4vw 0vw;
+  position: relative;
 }
 .initial-text h2 {
-    font-size: 2.3vw;
-    font-weight: 700;
-    color: #423f3f;
-    text-transform: capitalize;
+  font-size: 2.3vw;
+  font-weight: 700;
+  color: #2e4ca1;
+  text-transform: capitalize;
 }
 .initial-text h2::after {
-    width: 6vw;
-    background-color: #133852;
-    display: inline-block;
-    height: 0.3vw;
-    content: '';
-    position: absolute;
-    left: 33vw;
-    right: 32vw;
-    top: 3.6vw;
+  width: 6vw;
+  background-color: #133852;
+  display: inline-block;
+  height: 0.3vw;
+  content: "";
+  position: absolute;
+  left: 33vw;
+  right: 32vw;
+  top: 3.6vw;
 }
 .initial-text p {
-    font-size: 1.05vw;
-    color: #5e5e5e;
-    margin-top: 2vw;
+  font-size: 1.05vw;
+  color: #5e5e5e;
+  margin-top: 2vw;
 }
 /* //initial text */
 
 /* europe tour package */
 .europe-tour {
-    padding: 3vw 0vw 5vw 0vw;
-    background-color: #f1f2f1;
+  padding: 3vw 0vw 5vw 0vw;
+  background-color: #f1f2f1;
 }
 .europe-tour h2 {
-    font-size: 2.3vw;
-    font-weight: 700;
-    color: #423f3f;
-    text-transform: capitalize;
-    margin-bottom: 3vw;
+  font-size: 2.3vw;
+  font-weight: 700;
+  color: #2e4ca1;
+  text-transform: capitalize;
+  margin-bottom: 3vw;
 }
 .europe-tour p {
-    font-size: 1.05vw;
-    color: #5e5e5e;
+  font-size: 1.05vw;
+  color: #5e5e5e;
 }
 .europe-tour h2::after {
-    width: 12vw;
-    background-color: #133852;
-    display: inline-block;
-    height: 0.3vw;
-    content: '';
-    position: absolute;
-    left: 30vw;
-    right: 32vw;
-    top: 3.6vw;
+  width: 12vw;
+  background-color: #133852;
+  display: inline-block;
+  height: 0.3vw;
+  content: "";
+  position: absolute;
+  left: 30vw;
+  right: 32vw;
+  top: 3.6vw;
 }
 .europe-tour .europe-tour-grid {
-    box-shadow:  6px 5px 20px 4px rgba(46,61,73,0.15);
-    border-radius: 6px;
-    margin-top: 2.5vw;
+  box-shadow: 6px 5px 20px 4px rgba(46, 61, 73, 0.15);
+  border-radius: 6px;
+  margin-top: 2.5vw;
 }
 .europe-tour .europe-tour-grid img {
-    border-radius: 6px;
+  border-radius: 6px;
 }
 .europe-tour .europe-tour-grid-content {
-    padding: 1.5vw 0.8vw 1vw 0.8vw;
+  padding: 1.5vw 0.8vw 1vw 0.8vw;
 }
 .europe-tour .europe-tour-grid-content h4 {
-    font-size: 1.5vw;
-    font-weight: 600;
-    color: #424242;
+  font-size: 1.5vw;
+  font-weight: 600;
+  color: #424242;
 }
 .europe-tour .europe-tour-grid-content h5 {
-    font-size: 0.9vw;
-    color: #5c5c5c;
-    border-bottom: 1px solid rgb(224, 224, 224);
-    padding-bottom: 0.8vw;
+  font-size: 0.9vw;
+  color: #5c5c5c;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  padding-bottom: 0.8vw;
 }
 .europe-tour .europe-tour-grid-content p strong {
-    font-weight: 600;
-    font-size: 2vw;
-    display: inline-block;
-    color: #df3c0b;
+  font-weight: 600;
+  font-size: 2vw;
+  display: inline-block;
+  color: #df3c0b;
 }
 .europe-tour span {
-    font-size: 1.3vw;
-    display: inline-block;
+  font-size: 1.3vw;
+  display: inline-block;
 }
 /* //europe tour package */
 
 /* featured destinations */
 .featured-destinations {
-    padding: 3vw 0vw 3vw 0vw;
-    background-color: #fff;
-    position: relative;
+  padding: 3vw 0vw 3vw 0vw;
+  background-color: #fff;
+  position: relative;
 }
 .featured-destinations h2 {
-    font-size: 2.3vw;
-    font-weight: 700;
-    color: #423f3f;
-    text-transform: capitalize;
-    margin-bottom: 3vw;
+  font-size: 2.3vw;
+  font-weight: 700;
+  color: #2e4ca1;
+  text-transform: capitalize;
+  margin-bottom: 3vw;
 }
 .featured-destinations p {
-    font-size: 1.05vw;
-    color: #5e5e5e;
+  font-size: 1.05vw;
+  color: #5e5e5e;
 }
 .featured-destinations h2::after {
-    width: 7vw;
-    background-color: #133852;
-    display: inline-block;
-    height: 0.3vw;
-    content: '';
-    position: absolute;
-    left: 32.5vw;
-    right: 32vw;
-    top: 3.6vw;
+  width: 7vw;
+  background-color: #133852;
+  display: inline-block;
+  height: 0.3vw;
+  content: "";
+  position: absolute;
+  left: 32.5vw;
+  right: 32vw;
+  top: 3.6vw;
 }
 .featured-destinations .featured-destinations-wrapper {
-    position: relative;
-    border-radius: 7px;
-    margin-bottom: 2.1vw;
+  position: relative;
+  border-radius: 7px;
+  margin-bottom: 2.1vw;
 }
 .featured-destinations .featured-destinations-wrapper img {
-    border-radius: 7px;
+  border-radius: 7px;
 }
 .featured-destinations .featured-destinations-wrapper h5 {
-    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,1) 100%);
-    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,1) 100%);
-    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,1) 100%);
-    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,1) 100%);
-    position: absolute;
-    top: 11.2vw;
-    left: 0vw;
-    width: 100%;
-    color: #fff;
-    font-size: 1.5vw;
-    text-transform: capitalize;
-    padding: 0.6vw 0vw 1vw 1vw;
-    border-radius: 8px;
-    font-weight: 700;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  position: absolute;
+  top: 11.2vw;
+  left: 0vw;
+  width: 100%;
+  color: #fff;
+  font-size: 1.5vw;
+  text-transform: capitalize;
+  padding: 0.6vw 0vw 1vw 1vw;
+  border-radius: 8px;
+  font-weight: 700;
 }
 /* //featured destinations */
 
-
 .home-cta {
-    background-color: rgb(224, 32, 32);
-    padding: 3vw 0vw 2vw 0vw;
+  background-color: #2e4ca1;
+  padding: 3vw 0vw 2vw 0vw;
 }
 .home-cta h2 {
-    font-size: 2.3vw;
-    color: #fff;
-    text-transform: capitalize;
-    font-weight: 600;
+  font-size: 2.3vw;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
 }
 .home-cta p {
-    color: rgb(238, 238, 238);
-    font-size: 1vw;
-    margin-top: 1vw;
+  color: rgb(238, 238, 238);
+  font-size: 1vw;
+  margin-top: 1vw;
 }
 .home-cta .btn-danger {
-    background-color: #fff;
-    border-color: #fff;
-    padding: 0.9vw 3vw 1vw 3vw;
-    color: rgb(224, 32, 32);
-    margin: 1.3vw 0vw;
-    font-weight: 700;
-    text-transform: uppercase;
-    border-radius: 100px;
+  background-color: #fff;
+  border-color: #fff;
+  padding: 0.9vw 3vw 1vw 3vw;
+  color: #2e4ca1;
+  margin: 1.3vw 0vw;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 100px;
 }
 
+.testimonials {
+  padding: 4vw 0vw;
+  background-color: #f1f2f1;
+}
+.testimonials .card {
+  border: none;
+  background-color: #f1f2f1;
+}
+.testimonials .card .carousel-item {
+  height: 200px;
+}
+.testimonials .carousel-inner {
+  padding: 3vw 1vw;
+  border: none;
+}
+.testimonials .card .carousel-caption {
+  padding: 0;
+  right: 0;
+  left: 0;
+  color: #3d3d3d;
+}
+.testimonials .card .carousel-caption h3 {
+  color: #494949;
+  font-weight: 600;
+  margin-top: 2vw;
+}
+.testimonials .carousel-caption small {
+  font-weight: 600;
+  font-size: 1vw;
+  float: right;
+}
+.testimonials .card .carousel-caption p {
+  line-height: 1.8vw;
+  font-size: 1vw;
+  color: #5e5e5e;
+}
+.testimonials .card .carousel-caption .col-sm-3 {
+  display: flex;
+  align-items: center;
+}
+.testimonials .card .carousel-caption .col-sm-9 {
+  text-align: left;
+}
+.navi a {
+  text-decoration: none;
+}
+a > .ico {
+  background-color: grey;
+  padding: 10px;
+}
+a:hover > .ico {
+  background-color: #666;
+}
+
+
+@media (max-width: 480px) {
+  .navbar-light .fa-bars {
+    color: #1b1b1b !important;
+  }
+  .bg-light > a {
+    font-size: 6vw;
+  }
+  .bg-light .navbar-nav {
+    padding: 2vw 0vw;
+  }
+  .bg-light .navbar-nav .nav-link {
+    line-height: 10vw;
+    font-size: 4.5vw;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    padding: 1.2vw 0vw;
+    padding-left: 5vw;
+  }
+  #navbarNavDropdown {
+    background-color: #ffffff;
+    z-index: 1;
+    position: absolute;
+    top: 15vw;
+    width: 110%;
+    margin-left: -4vw;
+  }
+  .bg-light .navbar-nav .dropdown-menu {
+    margin-top: 10px;
+    margin: 15px;
+  }
+  .bg-light .navbar-nav .dropdown-item {
+    padding: 2vw 2vw;
+    font-size: 4.3vw;
+  }
+  .navbar {
+    padding: 14px 0px;
+  }
+  .navbar-light .navbar-toggler {
+    border: 2px solid #fff;
+  }
+  .home-carousel .carousel-caption {
+    padding: 3vw 0vw 1.8vw 0vw;
+  }
+  .home-carousel .carousel-caption h5 {
+    font-size: 3.5vw;
+  }
+  .initial-text {
+    padding: 6vw 0vw 6vw 0vw;
+  }
+  .initial-text h2 {
+    font-size: 3.5vw;
+  }
+  .initial-text h2::after {
+    display: none;
+  }
+  .initial-text p {
+    font-size: 2.6vw;
+  }
+  .europe-tour .europe-tour-grid img {
+    width: 100%;
+  }
+  .europe-tour {
+    padding: 6vw 0vw 5vw 0vw;
+  }
+  .europe-tour h2 {
+    font-size: 3.5vw;
+  }
+  .europe-tour h2::after {
+    display: none;
+  }
+  .europe-tour p {
+    font-size: 2.7vw;
+  }
+  .europe-tour .europe-tour-grid {
+    margin-bottom: 3.5vw;
+  }
+  .europe-tour .europe-tour-grid-content {
+    padding: 3.5vw 0.8vw 1vw 3.8vw;
+  }
+  .europe-tour .europe-tour-grid-content p strong {
+    font-size: 6vw;
+  }
+  .europe-tour .europe-tour-grid-content h4 {
+    font-size: 3.5vw;
+  }
+  .europe-tour .europe-tour-grid-content h5 {
+    font-size: 2.6vw;
+  }
+  .europe-tour p {
+    font-size: 2.8vw;
+  }
+  .featured-destinations {
+    padding: 5vw 0vw 4vw 0vw;
+  }
+  .featured-destinations h2 {
+    font-size: 3.5vw;
+  }
+  .featured-destinations h2::after {
+    display: none;
+  }
+  .featured-destinations .mt-5 {
+    margin-top: 0 !important;
+  }
+  .featured-destinations p {
+    font-size: 2.7vw;
+  }
+  .featured-destinations .featured-destinations-wrapper h5 {
+    top: 50.2vw;
+    font-size: 3.5vw;
+    padding: 2.6vw 0vw 3vw 1vw;
+    width: 98.8%;
+    border-radius: 0px;
+    padding-left: 3vw;
+  }
+  .featured-destinations-wrapper {
+    margin-bottom: 4vw !important;
+  }
+  .home-cta {
+    padding: 6vw 0vw 6vw 0vw;
+  }
+  .home-cta h2 {
+    font-size: 3.5vw;
+  }
+  .home-cta p {
+    font-size: 2.5vw;
+  }
+  .home-cta .btn-danger {
+    padding: 1.9vw 6vw 2vw 6vw;
+    font-size: 3vw;
+  }
+  .testimonials {
+    padding: 5vw 0vw;
+  }
+  .testimonials .carousel-caption img {
+    width: 25vw;
+    height: 25vw;
+  }
+  .testimonials .card .carousel-caption h3 {
+    font-size: 4vw;
+    margin-top: 5vw;
+  }
+  .testimonials .card .carousel-caption p {
+    line-height: 4.8vw;
+    font-size: 3vw;
+  }
+  .testimonials .carousel-caption small {
+    font-size: 3vw;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar-light .fa-bars {
+    color: #1b1b1b !important;
+  }
+  .bg-light > a {
+    font-size: 3.5vw;
+  }
+  .bg-light .navbar-nav {
+    padding: 2vw 0vw;
+  }
+  .bg-light .navbar-nav .nav-link {
+    line-height: 8vw;
+    font-size: 3.2vw;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    padding: 0vw 0vw;
+    padding-left: 5vw;
+  }
+  #navbarNavDropdown {
+    background-color: #ffffff;
+    z-index: 1;
+    position: absolute;
+    top: 8.5vw;
+    width: 113%;
+    margin-left: -6vw;
+  }
+  .bg-light .navbar-nav .dropdown-menu {
+    margin-top: 10px;
+    margin: 15px;
+  }
+  .bg-light .navbar-nav .dropdown-item {
+    padding: 1.8vw 2vw;
+    font-size: 3.2vw;
+    padding-left: 4vw;
+  }
+  .navbar {
+    padding: 14px 0px;
+  }
+  .navbar-light .navbar-toggler {
+    border: 2px solid #fff;
+  }
+  .home-carousel .carousel-caption {
+    padding: 3vw 0vw 1.8vw 0vw;
+  }
+  .home-carousel .carousel-caption h5 {
+    font-size: 3.5vw;
+  }
+  .initial-text h2 {
+    font-size: 3.5vw;
+  }
+  .initial-text h2::after {
+    display: none;
+  }
+  .initial-text p {
+    font-size: 2.6vw;
+  }
+  .europe-tour .europe-tour-grid img {
+    width: 100%;
+  }
+  .europe-tour h2 {
+    font-size: 3.5vw;
+  }
+  .europe-tour h2::after {
+    display: none;
+  }
+  .europe-tour p {
+    font-size: 2.7vw;
+  }
+  .europe-tour .europe-tour-grid-content {
+    padding: 3.5vw 0.8vw 1vw 3.8vw;
+  }
+  .europe-tour .europe-tour-grid-content p strong {
+    font-size: 6vw;
+  }
+  .europe-tour .europe-tour-grid-content h4 {
+    font-size: 3.5vw;
+  }
+  .europe-tour .europe-tour-grid-content h5 {
+    font-size: 2.6vw;
+  }
+  .europe-tour p {
+    font-size: 2.8vw;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1100px) {
+  .navbar-light .fa-bars {
+    color: #1b1b1b !important;
+  }
+  .bg-light > a {
+    font-size: 3.5vw;
+  }
+  .bg-light .navbar-nav {
+    padding: 2vw 0vw;
+  }
+  .bg-light .navbar-nav .nav-link {
+    line-height: 8vw;
+    font-size: 3.2vw;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    padding: 0vw 0vw;
+    padding-left: 5vw;
+  }
+  #navbarNavDropdown {
+    background-color: #ffffff;
+    z-index: 1;
+    position: absolute;
+    top: 8.5vw;
+    width: 113%;
+    margin-left: -6vw;
+  }
+  .bg-light .navbar-nav .dropdown-menu {
+    margin-top: 10px;
+    margin: 15px;
+  }
+  .bg-light .navbar-nav .dropdown-item {
+    padding: 1.8vw 2vw;
+    font-size: 3.2vw;
+    padding-left: 4vw;
+  }
+  .navbar {
+    padding: 14px 0px;
+  }
+  .navbar-light .navbar-toggler {
+    border: 2px solid #fff;
+  }
+}
 
 
 
