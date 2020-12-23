@@ -94,6 +94,7 @@ html {
 }
 .home-carousel .carousel-caption h5 {
   font-size: 2vw;
+  text-transform: capitalize;
 }
 /* //home banner */
 
@@ -381,19 +382,20 @@ a:hover > .ico {
     padding: 3vw 0vw 1.8vw 0vw;
   }
   .home-carousel .carousel-caption h5 {
-    font-size: 3.5vw;
+    font-size: 5vw;
   }
   .initial-text {
     padding: 6vw 0vw 6vw 0vw;
   }
   .initial-text h2 {
-    font-size: 3.5vw;
+    font-size: 5.7vw;
   }
   .initial-text h2::after {
     display: none;
   }
   .initial-text p {
-    font-size: 2.6vw;
+    font-size: 3.9vw;
+    margin-top: 3vw;
   }
   .europe-tour .europe-tour-grid img {
     width: 100%;
@@ -402,13 +404,14 @@ a:hover > .ico {
     padding: 6vw 0vw 5vw 0vw;
   }
   .europe-tour h2 {
-    font-size: 3.5vw;
+    font-size: 5.7vw;
+    line-height: 9vw;
   }
   .europe-tour h2::after {
     display: none;
   }
   .europe-tour p {
-    font-size: 2.7vw;
+    font-size: 3.9vw;
   }
   .europe-tour .europe-tour-grid {
     margin-bottom: 3.5vw;
@@ -417,22 +420,25 @@ a:hover > .ico {
     padding: 3.5vw 0.8vw 1vw 3.8vw;
   }
   .europe-tour .europe-tour-grid-content p strong {
-    font-size: 6vw;
+    font-size: 8vw;
+  }
+  .europe-tour span {
+    font-size: 5.3vw;
   }
   .europe-tour .europe-tour-grid-content h4 {
-    font-size: 3.5vw;
+    font-size: 5.5vw;
   }
   .europe-tour .europe-tour-grid-content h5 {
-    font-size: 2.6vw;
+    font-size: 3.8vw;
   }
   .europe-tour p {
-    font-size: 2.8vw;
+    font-size: 4.9vw;
   }
   .featured-destinations {
-    padding: 5vw 0vw 4vw 0vw;
+    padding: 9vw 0vw 9vw 0vw;
   }
   .featured-destinations h2 {
-    font-size: 3.5vw;
+    font-size: 5.7vw;
   }
   .featured-destinations h2::after {
     display: none;
@@ -441,7 +447,8 @@ a:hover > .ico {
     margin-top: 0 !important;
   }
   .featured-destinations p {
-    font-size: 2.7vw;
+    font-size: 3.9vw;
+    margin-bottom: 11vw;
   }
   .featured-destinations .featured-destinations-wrapper h5 {
     top: 50.2vw;
@@ -455,17 +462,18 @@ a:hover > .ico {
     margin-bottom: 4vw !important;
   }
   .home-cta {
-    padding: 6vw 0vw 6vw 0vw;
+    padding: 9vw 0vw 9vw 0vw;
   }
   .home-cta h2 {
-    font-size: 3.5vw;
+    font-size: 5.8vw;
   }
   .home-cta p {
-    font-size: 2.5vw;
+    font-size: 3.9vw;
+    margin: 5vw 0vw;
   }
   .home-cta .btn-danger {
-    padding: 1.9vw 6vw 2vw 6vw;
-    font-size: 3vw;
+    padding: 2.2vw 8vw 2vw 8vw;
+    font-size: 3.8vw;
   }
   .testimonials {
     padding: 5vw 0vw;
@@ -474,16 +482,20 @@ a:hover > .ico {
     width: 25vw;
     height: 25vw;
   }
+  .testimonials .carousel-inner {
+    padding: 45vw 0vw 10vw 0vw;
+  }
   .testimonials .card .carousel-caption h3 {
-    font-size: 4vw;
+    font-size: 6vw;
     margin-top: 5vw;
+    margin-bottom: 4vw;
   }
   .testimonials .card .carousel-caption p {
-    line-height: 4.8vw;
-    font-size: 3vw;
+    line-height: 6vw;
+    font-size: 4.2vw;
   }
   .testimonials .carousel-caption small {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }
 
