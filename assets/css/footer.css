@@ -18,8 +18,8 @@ html { scroll-behavior: smooth; }
     display: inline-block;
 }
 .common-cta .btn-primary {
-    background-color: #1c344c;
-    border-color: #1e3144;
+    background-color: #245688;
+    border-color: #245688;
     padding: 19px 32px 20px 32px;
     margin-right: 20px;
     border-radius: 100px;
@@ -27,8 +27,8 @@ html { scroll-behavior: smooth; }
     letter-spacing: 1px;
 }
 .common-cta .btn-danger {
-    background-color: #1c344c;
-    border-color: #1e3144;
+    background-color: #245688;
+    border-color: #245688;
     padding: 19px 32px 20px 32px;
     border-radius: 100px;
 }
